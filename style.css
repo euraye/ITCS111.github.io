@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+    box-sizing: border-box
+}
+.logo{
+   margin-top:5px; 
+   margin-left: 60px;
+   position: fixed;
+   z-index: 10;
+   
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 60px;
+
+  }
+  .topnav a {
+    float: right;
+    color: #362c23;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 18px;
+
+  }
+
+  .topnav a:before {
+    content: "";
+    position: absolute;
+    width: 84%;
+    height: 2px;
+    bottom: 3px;
+    left: 8%;
+    background-color:#362c23;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+ .topnav a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+.topnav a.active-menu:before {
+    content: "";
+    position: absolute;
+    width: 84%;
+    height: 2px;
+    bottom: 3px;
+    left: 8%;
+    background-color: #362c23;
+    visibility: visible;
+    transform: scaleX(1);
+    transition: all 0.3s ease-in-out 0s; 
+    }
+
+.CSS{
+    float:left;
+    pointer-events: none;
+    margin-left: 50px;
+    
+}
+.Particles{
+    margin: 0;
+    padding: 100px 0px;
+    height: 100vh;
+    background-size:cover;
+
+
+}
+#particles-js{
+    height: 100%;
+    background: #181818;
+    
+}
+.Homepage{
+    height: 100vh;
+    width: 100%;
+   
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    transform: translateY(-19%);
+    
+}
+h1{
+    color: #FEFCF3;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: #FEFCF3;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #FEFCF3;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url('img/BG4.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-text{
+    width: 550px;
+}
+.creator {
+    border-radius: 30px;
+} 
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left:215px;
+    margin-top:110px;
+}
+.History h2{
+    color:#362c23;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    
+}
+.History h5{
+    color:#362c23;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.History p{
+    color:#362c23;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.Timeline {
+    padding: 140px 0px;
+    font-family: "Neue Haas Grotesk";
+    background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(150, 150, 150, 0.5) 100%);
+    background-size: cover;
+     
+}
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 65px;
+    width: 3px;
+    height: calc(100% - 80px);
+    background:#362c23 ;
+    
+}
+
+.timeline .column {
+    margin: 40px 40px 40px 120px;
+}
+
+.timeline .column .title h1 {
+    font-size: 120px;
+    color: #a7a5a5;
+    letter-spacing: 3px;
+    font-family: Helvetica;
+}
+
+.timeline .column .title h1:before {
+    content: "";
+    position: absolute;
+    left: -62px;
+    top: 86px;
+    width: 10px;
+    height: 10px;
+    background:#362c23;
+    border: 3px solid #362c23;
+}
+
+.timeline .column .title h2 {
+    margin-top: -60px;
+    font-size: 33px;
+    color: #362c23;
+    font-family: Helvetica;
+    
+}
+
+.timeline .column .description p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Helvetica;
+}
+
+.timeline .column .description {
+    border-left: 1px solid #362c23;
+}
+
+.timeline-main h1 {
+    font-size: 80px;
+    line-height: 60px;
+    margin-top: 00px;
+    margin-left: 50px;
+    color: #362c23;
+}
