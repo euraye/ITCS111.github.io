@@ -118,48 +118,49 @@ h4{
 }
 
 .about{
-    height: 100vh;
-    width: 100%;
-    padding: 100px 0px;
-    background-image: url('img/BG4.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+      height: 100vh;
+        width: 100%;
+        padding: 100px 0px;
+        background-image: url(layer2.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 .creator {
     border-radius: 30px;
-} 
+    margin-left: 750px;
+    margin-top: -450px; 
+    z-index: 1px; 
+}
 .main{
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left:215px;
-    margin-top:110px;
+    margin-left:30px;
+    margin-top:150px;
 }
 .History h2{
-    color:#362c23;
+    color:#ECE8DD;
     font-size: 70px;
     text-transform: capitalize;
-    margin-bottom: 50px;
+    margin-top: 50px;
     
 }
 .History h5{
-    color:#362c23;
+    color:#ECE8DD;
     letter-spacing: 2px;
     font-size: 22px;
     text-transform: capitalize;
     margin-bottom: 25px;
 }
 .History p{
-    color:#362c23;
+    color:#ECE8DD;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 20px;
     margin-bottom: 40px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 * {
     padding: 0;
@@ -167,12 +168,26 @@ h4{
     position: relative;
 }
 
+.spacer{
+    aspect-ratio:960/300;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{
+    background-image:url('layer1.svg');
+}
+    
+
+.flip{
+   transform: rotate(180deg);
+}
 .Timeline {
     padding: 140px 0px;
     font-family: "Neue Haas Grotesk";
-    background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(150, 150, 150, 0.5) 100%);
+    background-color: #b0afaf;
     background-size: cover;
-     
 }
 .timeline:before {
     content: "";
@@ -191,7 +206,7 @@ h4{
 
 .timeline .column .title h1 {
     font-size: 120px;
-    color: #a7a5a5;
+    color: #F9F2ED;
     letter-spacing: 3px;
     font-family: Helvetica;
 }
@@ -220,7 +235,7 @@ h4{
     line-height: 20px;
     margin-left: 20px;
     margin-top: 10px;
-    font-family: Helvetica;
+    font-family: 'Raleway';
     color: #362c23;
     line-height:30px;
 }
@@ -269,7 +284,7 @@ h4{
     position: relative;
     display: block;
     width: calc(146% + 1.3px);
-    height:500px;
+    height:450px;
 }
 
 .triangle-divider .shape-fill {
