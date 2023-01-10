@@ -287,7 +287,7 @@ h4{
 }
 .textbox{
     width: 750px;
-    height: 320px;
+    height: 250px;
     margin-left:-40px;
     background: #F5EBE0;
     opacity: .6 
@@ -297,7 +297,7 @@ h4{
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 15px;
-    margin-top:-300px;
+    margin-top:-220px;
     margin-left:10px;
 
 }
