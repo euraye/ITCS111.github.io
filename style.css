@@ -25,7 +25,7 @@ html, body {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index:1;
     height: 60px;
 
   }
@@ -252,25 +252,67 @@ h4{
     color: #362c23;
 }
 .Purpose{
-    height: 100vh;
-    width: 100%;
-    padding: 100px 0px;
-    background-image: url('img/BG4.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.Importance{
     min-height: 900px;
     padding: 100px 20vw;
-    background-image: url('img/coding-css3.jpg');
+    background-image: url('img/coding-css.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: auto;
     max-width: 100%
 }
-.triangle-divider {
+
+.triangle-divider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.triangle-divider svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.5px);
+    height: 500px;
+}
+
+.triangle-divider .shape-fill {
+    fill: #fff6f6;
+}
+.purpose-title h1 {
+    color: #362c23;
+    margin-top:100px;
+
+}
+.textbox{
+    width: 750px;
+    height: 320px;
+    margin-left:-40px;
+    background: #F5EBE0;
+    opacity: .6 
+}
+.purpose-description{
+    color: #362c23;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    margin-top:-300px;
+    margin-left:10px;
+
+}
+
+.Importance{
+    min-height: 900px;
+    padding: 100px 20vw;
+    background-image: url('img/coding-css1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    max-width: 100%
+}
+.triangle1-divider 
+ {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -279,21 +321,21 @@ h4{
     line-height: 0;
     transform: rotate(180deg);
 }
-
-.triangle-divider svg {
+.triangle1-divider  svg {
     position: relative;
     display: block;
     width: calc(146% + 1.3px);
     height:450px;
 }
 
-.triangle-divider .shape-fill {
+
+.triangle1-divider .shape-fill {
     fill: #e6e6e6;
 }
-.importance-title{
+.importance-title h1 {
     color: white;
 }
-.textbox{
+.textbox1{
     width: 700px;
     height: 320px;
     margin-left:180px;
@@ -307,5 +349,5 @@ h4{
     font-size: 15px;
     margin-top:-300px;
     margin-left:200px;
-   z-index: 1;
+    z-index: 1;
 }
