@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+html {
+    overflow: hidden; 
+}
+*{
+    font-family: 'Raleway';
+}
+.BG{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.submission-title h1 {
+    color: #b0afaf;
+    margin-top: 200px;
+    margin-left: 390px;
+    font-size: 50px;
+    
+}
+.textbox{
+    width: 750px;
+    height: 150px;
+    margin-left: 300px;
+    margin-top: -130px;
+    background: rgba(146, 146, 146, 0.3);
+}

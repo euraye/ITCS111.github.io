@@ -196,7 +196,7 @@ h4{
     left: 65px;
     width: 3px;
     height: calc(100% - 80px);
-    background:#362c23 ;
+    background: #362c23 ;
     
 }
 
@@ -349,5 +349,77 @@ h4{
     font-size: 15px;
     margin-top:-300px;
     margin-left:200px;
-    z-index: 1;
+}
+ *{
+    box-sizing: border-box;
+  }
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #2f302f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #545554;
+  }
+  
+ 
+  .Contact {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 60px;
+    font-size: 30px;
+
+  }
+  .contact-img{
+      margin-left: 100px;
+      margin-top: 70px;
+  }
+
+  .contact-info{
+    float: right;
+    width: 50%;
+    margin-top: -385px;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .references-title h1{
+    color: black;
+  }
+
+.references-list{
+     list-style-type: circle;
+     margin-left: 50px;
 }
