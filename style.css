@@ -414,12 +414,3 @@ h4{
     display: table;
     clear: both;
   }
-
-  .references-title h1{
-    color: black;
-  }
-
-.references-list{
-     list-style-type: circle;
-     margin-left: 50px;
-}
